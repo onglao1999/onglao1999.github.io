@@ -20,6 +20,28 @@ print("CHỌN BÀI TẬP ( chọn 1 - 7 )")
 let demo: Int = Int( readLine() ?? "0") ?? 0
 
 
-if(demo == 1){
+if(demo == 1) {
+    print("BÀI TẬP 01: Cho bán kính hình cầu, tính và in ra diện tích, thể tích của hình cầu")
     baiTap01()
+    
+    
 }
+
+if(demo == 2) {
+    print("BÀI TẬP 02: Tính tổng bình phương 2 số a, b (a, b nhập từ bàn phím)  ")
+    tongBP()
+    
+}
+
+if(demo == 3) {
+    print("BÀI TẬP 03: Viết chương trình nhập vào số nguyên n và xét giá trị của n")
+    xetSN()
+}
+
+if(demo == 4) {   }
+
+if(demo == 5) {   }
+
+if(demo == 6) {   }
+
+
