@@ -7,3 +7,14 @@
 //
 
 import Foundation
+func phepChia(){
+    print("Nhập số a: ", terminator: " ")
+    let a4: Int = Int(readLine() ?? "0" ) ?? 0
+    
+    print("Nhập số b: ", terminator: " ")
+    let b4: Int = Int(readLine() ?? "0") ?? 0
+    
+    if(a4 % b4 == 0){
+        print("Số \(a4) chia hết cho số \(b4)")
+    }
+}
