@@ -11,7 +11,7 @@ import Foundation
 func baiTap01(){
     print("Nhập bán kính hình cầu: ")
     let r: Float = Float(readLine() ?? "0") ?? 0
-    print("Diện tích hình cầu có bán kính \(r) là :  \(4 * 3.14 * r)")
+    print("Diện tích hình cầu có bán kính \(r) là :  \(4 * 3.14 * powf(r, 2))")
     let v: Float = (4/3) * 3.14 * r
     print("Thể tích hình cầu có bán kính \(r) là : \(pow( v , 3)) ")
 }
