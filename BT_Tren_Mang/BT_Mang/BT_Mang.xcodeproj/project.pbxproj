@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9C44F0AA23BB92D000E69118 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44F0A923BB92D000E69118 /* main.swift */; };
+		9C44F0B123BB935100E69118 /* B1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44F0B023BB935100E69118 /* B1.swift */; };
+		9C44F0B323BB9CE200E69118 /* B2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44F0B223BB9CE200E69118 /* B2.swift */; };
+		9C44F0B523BB9FAC00E69118 /* B3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44F0B423BB9FAC00E69118 /* B3.swift */; };
+		9C4689D423BBB47600DF2D17 /* B4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4689D323BBB47600DF2D17 /* B4.swift */; };
+		9C4689D623BBC5AB00DF2D17 /* B5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4689D523BBC5AB00DF2D17 /* B5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		9C44F0A623BB92D000E69118 /* BT_Mang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BT_Mang; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C44F0A923BB92D000E69118 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9C44F0B023BB935100E69118 /* B1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1.swift; sourceTree = "<group>"; };
+		9C44F0B223BB9CE200E69118 /* B2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2.swift; sourceTree = "<group>"; };
+		9C44F0B423BB9FAC00E69118 /* B3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3.swift; sourceTree = "<group>"; };
+		9C4689D323BBB47600DF2D17 /* B4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4.swift; sourceTree = "<group>"; };
+		9C4689D523BBC5AB00DF2D17 /* B5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				9C44F0A923BB92D000E69118 /* main.swift */,
+				9C44F0B023BB935100E69118 /* B1.swift */,
+				9C44F0B223BB9CE200E69118 /* B2.swift */,
+				9C44F0B423BB9FAC00E69118 /* B3.swift */,
+				9C4689D323BBB47600DF2D17 /* B4.swift */,
+				9C4689D523BBC5AB00DF2D17 /* B5.swift */,
 			);
 			path = BT_Mang;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C44F0B523BB9FAC00E69118 /* B3.swift in Sources */,
+				9C44F0B123BB935100E69118 /* B1.swift in Sources */,
+				9C4689D623BBC5AB00DF2D17 /* B5.swift in Sources */,
 				9C44F0AA23BB92D000E69118 /* main.swift in Sources */,
+				9C4689D423BBB47600DF2D17 /* B4.swift in Sources */,
+				9C44F0B323BB9CE200E69118 /* B2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
