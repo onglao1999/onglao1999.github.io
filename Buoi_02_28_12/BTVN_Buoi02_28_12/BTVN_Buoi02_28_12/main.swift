@@ -7,20 +7,21 @@
 //
 
  import Foundation
-//Bài 01 Trên lớp
-timSoLonBe(a: 1, b: 2, c: 3)
-print("----------")
-
-//Bài 02 Trên Lớp
-tamGiac(a: 3, b: 4, c: 5)
-print("----------")
-
-//Bài 03 Trên Lớp
-namNhuan(a: 2000)
-print("----------")
+////Bài 01 Trên lớp
+//timSoLonBe(a: 1, b: 2, c: 3)
+//print("----------")
+//
+////Bài 02 Trên Lớp
+//tamGiac(a: 3, b: 4, c: 5)
+//print("----------")
+//
+////Bài 03 Trên Lớp
+//namNhuan(a: 2000)
+//print("----------")
 
 //Bài 04 Trên Lớp
-thoiGian(a: 2, b: 2, c:2)
+
+thoiGian()
 print("----------")
 
 //Bài 05 Trên Lớp

@@ -34,6 +34,16 @@ func tamGiac(a: Float, b: Float, c: Float){
         }
     }
     
-    
-    
+}
+
+// Cách làm của GV
+func tamGiac1(a: Float, b: Float, c: Float){
+    if a + b > c && a + c > b  && b + c > a {
+        print("3 canh \(a), \(b), \(c) tao duoc thanh mot tam giac")
+        let d: Float =  Float( (a + b + c) / 2 )
+                       let e: Float = Float( sqrt( d * (d - a) * ( d - b ) * ( d - c) ))
+                       print( " Diện tích của hình tam giác dc tạo thành là : \(e)" )
+    } else{
+        print("3 canh \(a), \(b), \(c) khong tao thanh mot tam giac")
+    }
 }
