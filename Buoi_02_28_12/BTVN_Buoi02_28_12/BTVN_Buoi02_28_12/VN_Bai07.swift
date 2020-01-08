@@ -17,7 +17,7 @@ func tamGiacCan(){
     var h: Int = Int(readLine() ?? "0") ?? 0
     
     for i in 1...h {
-        for j in 0...(((h - i)*2 - 2 )/2 + 1) {
+        for _ in 0...(((h - i)*2 - 2 )/2 + 1) {
             print(" ", terminator: "")
         }
         //Coi mỗi khoảng trắng là 1 đơn vị. Tìm ra công thức số khoảng trắng ((h - i)*2 - 2 )/2 + 1 là số khoảng trăng của từng dòng

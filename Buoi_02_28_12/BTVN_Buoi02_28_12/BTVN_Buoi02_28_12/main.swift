@@ -20,44 +20,44 @@
 //print("----------")
 
 //Bài 04 Trên Lớp
-
-thoiGian()
-print("----------")
-
-//Bài 05 Trên Lớp
-soLN()
-print("----------")
-
-//VN_Bai01
-diemTB()
-print("----------")
-
-//Vn_Bai02
-timS()
-print("--------------")
-
-//VN_Bai03
-chanLe()
-print("--------------")
+//
+//thoiGian()
+//print("----------")
+//
+////Bài 05 Trên Lớp
+//soLN()
+//print("----------")
+//
+////VN_Bai01
+//diemTB()
+//print("----------")
+//
+////Vn_Bai02
+//timS()
+//print("--------------")
+//
+////VN_Bai03
+//chanLe()
+//print("--------------")
 
 //VN_Bai04
 inChuoi()
 print("----------")
 
-//VN_Bai05
-daySo()
-print("--------------")
-
-//VN_Bai06
-xetMang()
-print("--------------")
-
-//VN_Bai07
-tamGiacCan()
-print("--------------")
-
-//VN_Bai08
-dauNhan()
-print("--------------")
-
+////VN_Bai05
+//daySo()
+//print("--------------")
+//
+////VN_Bai06
+//xetMang()
+//print("--------------")
+//
+////VN_Bai07
+//tamGiacCan()
+//print("--------------")
+//
+////VN_Bai08
+//dauNhan()
+//print("--------------")
+//
 

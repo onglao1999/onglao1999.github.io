@@ -54,5 +54,21 @@ func dauNhan(){
         print("*")
     }
     
+   
 
 }
+/*
+ print("Nhập vào chiều cao x: ")
+    let h1 = Int(readLine()!)!
+    
+    for i in 0..<h {
+        for j in 0..<h {
+            if i == j || i + j == h - 1 {
+                print("*", terminator: "")
+            } else {
+                print(" ", terminator: "")
+            }
+        }
+        
+    }
+ */

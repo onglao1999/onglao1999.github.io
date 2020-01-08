@@ -10,16 +10,26 @@
 
 import Foundation
 func timSoThuNhi(){
+    //Cô giáo chữa
+   print("Nhập vào số tự nhiên bất kỳ")
+   var n = Int(readLine()!) ?? 0
+   
+   var numbers = [Int]()
+   var x = 0
+   var newArray = [Int]()
+   while n > 0 {
+       x = n%10
+       n = n/10
+       numbers.insert(x, at: 0)
+   }
+   
+   newArray = Array(Set(numbers))
+   newArray.sort()
+   
+   if newArray.count == 1 {
+       print("Chữ số duy nhất là \(newArray[0])")
+   }else{
+    print("Chữ số lớn thứ 2 là \(newArray[newArray.count - 2])")
+   }
     
-    var n: Int = 11000
-    while n > 10000{
-        print("Nhập số n nguyên dương cần xét (n < 10000): ", terminator: "")
-        n = Int(readLine() ?? "0") ?? 0
-        var a: Int = n % 100 - n % 10
-        if a/10 == 0 {
-            print("Không có sô lớn thứ 2. số lớn nhất trong số đã cho là: \(n%10)")
-        } else{
-       print("Số lớn thứ 2 trong số đã cho là: \(a/10)")
-        }
-}
 }
