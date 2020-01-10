@@ -21,7 +21,7 @@ func b8(){
     var ts1: Int
     var ms1: Int
     for i in 0..<a {
-        print("Nhập số thứ \(i + 1): ")
+        print("==== Nhập số thứ \(i + 1) ====")
         print("Nhập tử số: ", terminator: "")
         ts1 = Int(readLine() ?? "1") ?? 1
         ts.append(ts1)

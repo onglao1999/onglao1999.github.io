@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-
 //B1: Đổi sang hệ nhị phân của số nguyên dương
 b1()
 //B2: Nhập vào giá trị X. Viết hàm xoá phần tử trong mảng có giá trị gần X nhất
