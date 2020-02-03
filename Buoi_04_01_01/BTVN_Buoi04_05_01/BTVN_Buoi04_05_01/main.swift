@@ -21,7 +21,7 @@
  */
 
 import Foundation
-
+b5()
 
 //B1
 tongSTN()
