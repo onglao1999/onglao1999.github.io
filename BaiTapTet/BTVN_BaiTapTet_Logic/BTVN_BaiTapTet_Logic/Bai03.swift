@@ -13,14 +13,12 @@
 
 import Foundation
 func bai03(){
-    
     print("Nhập ngày: ", terminator: "")
     var n: Int = Int(readLine() ?? "0") ?? 0
     print("Nhập tháng: ", terminator: "")
     var t: Int = Int(readLine() ?? "0") ?? 0
     print("Nhập năm: ", terminator: "")
     var nam: Int = Int(readLine() ?? "0") ?? 0
-    
     switch t {
     case 1:
     print("Tháng \(t) có 31 ngày")
@@ -36,7 +34,6 @@ func bai03(){
         }
         
     }
-    
     // ngày trước ngày vừa nhập
     var n1, t1, nam1: Int
     if n == 1 && t == 1 {
@@ -65,7 +62,6 @@ func bai03(){
                     nam1 = nam
                 }
             }
-            
         } else{
             n1 = n - 1
             t1 = t - 1
@@ -73,7 +69,6 @@ func bai03(){
         }
     }
     print("Ngày hôm trước của \(n)/\(t)/\(nam) là \(n1)/\(t1)/\(nam1)")
-    
     if n == 31 && t == 12 {
            n1 = 1
            t1 = 1
@@ -90,7 +85,6 @@ func bai03(){
                 t1 = t + 1
                 nam1 = nam
             }
-        
         case 4 | 6 | 9 | 11:
             if n == 30 {
                 n1 = 1
@@ -101,7 +95,6 @@ func bai03(){
                 t1 = t + 1
                 nam1 = nam
             }
-            
         default:
             if nam%4 == 0 && nam%100 != 0 || nam%400 == 0{
                 if n == 29 {
@@ -113,7 +106,6 @@ func bai03(){
                     t1 = t
                     nam1 = nam
                 }
-                
             } else {
                 if n == 28 {
                     n1 = 1
@@ -125,10 +117,7 @@ func bai03(){
                     nam1 = nam
                 }
             }
-            
-            
         }
     }
-    
     print("Ngày hôm sau của \(n)/\(t)/\(nam) là \(n1)/\(t1)/\(nam1)")
 }
