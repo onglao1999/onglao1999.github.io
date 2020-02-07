@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         let minuteInAboutSecond = minute*60 + second
         
         let firstAlphaHour = CGFloat.pi * (2*CGFloat(hourInAboutSecond)/12/60/60 - 0.5)
-        let firstAlphaMinute = CGFloat.pi * (2+CGFloat(minuteInAboutSecond)/60/60 - 0.5)
+        let firstAlphaMinute = CGFloat.pi * (2*CGFloat(minuteInAboutSecond)/60/60 - 0.5)
         let firstAlphaSecond = CGFloat.pi * (2*CGFloat(second)/60 - 0.5)
         
         return (firstAlphaHour, firstAlphaMinute, firstAlphaSecond)
