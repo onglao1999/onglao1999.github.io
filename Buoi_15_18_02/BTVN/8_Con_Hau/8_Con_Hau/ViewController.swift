@@ -13,17 +13,14 @@ class ViewController: UIViewController {
     var n: Int = 8 // hàng cột trong ô cờ
     let ChessView = UIView()
     let chonVien = UILabel()
-    var h: [Int] = [0]
-    var td: [Int] = [0, 0, 0, 0, 0, 0, 0, 0]
-    var th: Int = 0
+    
     //    var counttag: Int = 0
     //    var images = [UIImageView]()
     override func viewDidLoad() {
         super.viewDidLoad()
         banCo()
         conHau(kTra: true, row: 1, column: 1)
-        hang(0, n)
-        //xuat()
+        
     }
     
     func banCo(){
@@ -66,44 +63,37 @@ class ViewController: UIViewController {
             }
         }
     }
-    func xuat(){
-        for i in td {
-        print(i)
-        }
-        print("-----------------")
-    }
-    
-    func hang(_ i: Int,_ n: Int){
-        for j in td[i]..<n {
-            if cot(i, j) == true {
-               td[i] = j
+    var mangLon: [Int]!
+    var mangNho: [Int] = [0, 0, 0 ,0 ,0 ,0 ,0 ,0]
+    var mangTD: [Int]!
+    var sumTH: Int = 0
+    func luaChon(_ hangDangXet: Int,_ cotDangXet: Int){
+        for i in cotDangXet..<n {
+            if ktDK(i, hangDangXet) {
+                mangNho[hangDangXet] = cotDangXet
                 
-                
-                if i == n - 1 {
-                    xuat()
-                    for i in 0..<8 {
-                        h[i + th] = td[i]
+                if cotDangXet == n - 1 {
+                    for e in mangNho {
+                        mangLon.append(e)
                     }
-                    th += 8
                 }
-                
-            }
-            if i == n - 1 {
-               if dem != n - 1 {
-                    
-                }
+                luaChon(hangDangXet + 1, mangTD[hangDangXet + 1])
             }
         }
         
+        luaChon(mangNho[hangDangXet - 1], mangTD[hangDangXet - 1])
     }
     
-    func cot(_ x2: Int,_ y2: Int) -> Bool{
-        for i in 0..<x2 {
-            if  td[i] == y2   {
-               return false
+    func ktDK(_ i: Int,_ hangDangXet: Int) -> Bool{
+        if hangDangXet == 0 {
+            return true
+        }
+        for j in 0..<hangDangXet {
+            if true {
+                return false
             }
         }
+        
         return true
     }
-   
 }
